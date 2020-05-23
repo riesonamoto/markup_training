@@ -1,0 +1,11 @@
+/*全要素のCSS適用*/
+* {
+    color: red;
+    box-sizing: border-box;
+}
+
+
+/*コメントclassはドットつける*/
+h1 {
+    color: red;
+}
