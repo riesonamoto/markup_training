@@ -1,0 +1,35 @@
+/*全要素のCSS適用*/
+* {
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+/* スマートフォン用レイアウト */
+@media (max-width: 670px){
+    .header {
+        width: 100%;
+        height: 40px;
+        padding: 0px 15px;
+    }
+
+    .logo {
+        height: 40px; /* 本当は高さ20px(目測)だが、svgの上下に余白が10px位あったので、40pxにした */
+        margin: 0px; 
+        /* 本当は上下余白は10pxだがlogoの高さを40pxにしたので、ヘッダー高さ40pxになるようにmarginは0pxにした */
+        float: left;
+    }
+
+    .header-list{
+        display: none;
+    }
+    
+    .hamburger-logo {
+        display: inline;
+        float: right;
+        height: 20px;
+        margin: 10px 0px;
+    }
+    
+
+}
