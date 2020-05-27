@@ -11,6 +11,8 @@ a {
     text-decoration: none; /* リンクの下線を消す */
 }
 
+/* *****ヘッダー***** */
+
 .header {
     /* max-width: 1170px; */
     width: 100%;
@@ -55,4 +57,70 @@ a {
 .header-list a:hover {
     color: #f08404;
 }
-/*コメントclassはドットつける*/
+
+/* *****サイドメニュー***** */
+
+.worker-info {
+    padding: 30px;
+    width: 250px;
+    height: 105px;
+}
+
+.face-photo {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover; /* 画像が正方形でない場合に縦横比を保ったままにする */
+    background-color: #cccccc;
+    float: left;
+    margin: 0px;
+}
+
+.worker-name {
+    width: 130px;
+    display: inline-block;
+    float: right;
+}
+
+.worker {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #f08404;
+    margin: 0px
+}
+
+.name {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin: 0px
+}
+
+.side-menu {
+    width: 250px;
+    height: 100vh; /* vh=viewpoint height=画面の高さと同じ */
+    background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
+}
+
+.menu-contents :hover {
+    border-left: 5px solid #f08404;
+}
+
+.menu-content {
+    height: 30px;
+    padding: 7.5px 30px;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.05em; /* 0.5emという指定だけど0.05emの間違い？ */
+}
+
+.menu-content :hover {
+    color: #f08404;
+    border: none; /* menu-contentsのborderプロパティが効いてアイコンとメニュー名にborder入るので消す */
+}
+
+.menu-icon {
+    height: 15px;
+    padding-right: 10px;
+}
