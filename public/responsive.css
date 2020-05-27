@@ -7,10 +7,13 @@
 
 /* スマートフォン用レイアウト */
 @media (max-width: 670px){
+
+/* *****ヘッダー***** */
+
     .header {
         width: 100%;
         height: 40px;
-        padding: 0px 15px;
+        padding: 0px 15px 0px 0px; /* 左右15px必要だったが、logoの左側に余白があったのでその余白を利用した */
     }
 
     .logo {
@@ -30,6 +33,30 @@
         height: 20px;
         margin: 10px 0px;
     }
+
+/* *****サイドメニュー***** */
+
+    .side-menu {
+        width: 100%;
+    }
+
+    .worker-info {
+        display: none;
+    }
+
+    .menu-contents {
+        border-top: 0.5px solid #ffffff;
+    }
+
+    .menu-content {
+        border-bottom: 0.5px solid #ffffff;
+        padding: 15px 20px;
+    }
+
+    
+    
+    
+    
     
 
 }
