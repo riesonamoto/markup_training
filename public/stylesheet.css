@@ -5,6 +5,14 @@
 
 body {
     margin: 0; /* この余白を指定しないと上下左右に余白ができる */
+    /* display: flex;
+    flex-flow: column;
+    min-height: 100vh; */
+}
+
+main {
+    /* background-color: #ffffff;
+    flex: 1; */
 }
 
 a {
@@ -18,6 +26,8 @@ a {
     height: 80px;
     padding: 0px 30px;
     background-color: #282424; /* 指定なしだったので、カラーピッカーで色決定 */
+    position: fixed;
+    z-index: 10;
 }
 
 .logo {
@@ -97,6 +107,8 @@ a {
     width: 250px;
     height: 100vh; /* vh=viewpoint height=画面の高さと同じ */
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
+    position: fixed;
+    z-index: 10;
 }
 
 .menu-contents :hover {
@@ -119,4 +131,41 @@ a {
 .menu-icon {
     height: 15px;
     padding-right: 10px;
+}
+
+/* *****フッター***** */
+
+footer {
+    /* background-color: aqua; */
+    height: 160px;
+    margin-top: -160px;
+}
+
+.top-footer {
+    width: 100%;
+    height: 30px;
+    padding: 10px 30px;
+    margin-top: -160px;
+    background-color: #60646c; /* 指定なしだったので、カラーピッカーで色決定 */
+    color: #ffffff;
+}
+
+.main-footer {
+    width: 100%;
+    height: 100px;
+    padding: 20px 30px;
+    margin-top: -130px;
+    background-color: #60646c; /* 指定なしだったので、カラーピッカーで色決定 */
+    color: #ffffff;
+}
+
+.bottom-footer {
+    width: 100%;
+    height: 30px;
+    padding: 10px 30px;
+    margin-top: -30px;
+    background-color: #ffffff; /* 指定なしだったので、カラーピッカーで色決定 */
+    color: #60646c;
+    font-size: 11px;
+    letter-spacing: 0.05em;
 }
