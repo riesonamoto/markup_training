@@ -1,6 +1,8 @@
 /* 全要素のCSS適用 */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -26,8 +28,8 @@ a {
     height: 80px;
     padding: 0px 30px;
     background-color: #282424; /* 指定なしだったので、カラーピッカーで色決定 */
-    position: fixed;
-    z-index: 10;
+    /* position: fixed; */
+    /* z-index: 10; */
 }
 
 .logo {
@@ -107,8 +109,8 @@ a {
     width: 250px;
     height: 100vh; /* vh=viewpoint height=画面の高さと同じ */
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
-    position: fixed;
-    z-index: 10;
+    /* position: fixed; */
+    /* z-index: 10; */
 }
 
 .menu-contents :hover {
@@ -143,29 +145,59 @@ footer {
 
 .top-footer {
     width: 100%;
-    height: 30px;
+    height: 33px;
     padding: 10px 30px;
-    margin-top: -160px;
     background-color: #60646c; /* 指定なしだったので、カラーピッカーで色決定 */
     color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.05em; /* 0.5emの指定だったが、デザインを見ると0.05emくらいなので、0.05emにした */
+}
+
+.top-footer a {
+    padding-right: 30px;
 }
 
 .main-footer {
     width: 100%;
-    height: 100px;
+    height: 112px;
     padding: 20px 30px;
-    margin-top: -130px;
-    background-color: #60646c; /* 指定なしだったので、カラーピッカーで色決定 */
+    background-color: #282424; /* 指定なしだったので、カラーピッカーで色決定 */
     color: #ffffff;
+    margin: 0px;
+}
+
+.rebuild-icon {
+    height: 40px;
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+
+.rebuild-cojp {
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.rebuild-info {
+    display: inline;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    padding: 0px;
+    margin: 0px;
 }
 
 .bottom-footer {
     width: 100%;
-    height: 30px;
-    padding: 10px 30px;
-    margin-top: -30px;
+    /* height: 31px; */
     background-color: #ffffff; /* 指定なしだったので、カラーピッカーで色決定 */
+}
+
+.bottom-footer p {
     color: #60646c;
     font-size: 11px;
     letter-spacing: 0.05em;
+    text-align: center;
+    padding: 10px 30px;
+
 }
+
