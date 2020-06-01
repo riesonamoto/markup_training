@@ -37,6 +37,11 @@
 /* *****サイドメニュー***** */
 
     .side-menu {
+        position: absolute;
+        top: 40px;
+    }
+
+    .side-menu {
         width: 100%;
     }
 
@@ -53,10 +58,63 @@
         padding: 15px 20px;
     }
 
+/* *****フッター***** */
+
+    .main-footer {
+        height: 123px;
+    }
+
+    .rebuild-info {
+        width: 80%;
+    }
+
+    .rebuild-info br {
+        display: inline;
+    }    
+
+    .page-top {
+        position: absolute;
+        right: 20px;
+        bottom: 21px;    
+    }
     
+/* *****モバイルフッター***** */
+
+    .mobile-footers {
+        display: block;
+        position: fixed;
+        bottom: 55px;
+        width: 100%;
+        height: 55px;
+        background-color: #282424;
+
+    }
+
+    .mobile-footer {
+        display: block;
+        z-index: 10;
+        width: 25%;
+        float: left;
+        margin: 0 auto;
+    }    
     
-    
-    
+    .footer-icon {
+        height: 40px;
+        padding-top: 7px;
+        margin: 0 auto;
+    }
+
+    .mobile-footer a {
+        font-size: 7px;
+        padding: 5px 0px 7px 0px;
+        text-align: center;
+    }
+
+    .mobile-footer a:hover {
+        color: #f08404;
+    }
+
+
     
 
 }
