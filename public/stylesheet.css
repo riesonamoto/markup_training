@@ -162,6 +162,7 @@ footer {
 
 .top-footer a {
     padding-right: 30px;
+    float: left;
 }
 
 .main-footer {
