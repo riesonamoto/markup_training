@@ -74,7 +74,6 @@ a {
     width: 250px;
     height: 100vh; /* vh=viewpoint height=画面の高さと同じ */
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
-    /* position: fixed; */
     z-index: 5;
     position: absolute;
     top: 80px;
