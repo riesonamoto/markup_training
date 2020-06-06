@@ -228,3 +228,15 @@ footer {
 .mobile-footer {
     display: none;
 }
+
+/* *****ダッシュボード***** */
+
+.title {
+    position: absolute;
+    top: 100px;
+    left:200px;
+    color: #282424;
+    font-size: 30px;
+
+
+}
