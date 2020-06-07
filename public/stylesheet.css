@@ -231,12 +231,85 @@ footer {
 
 /* *****ダッシュボード***** */
 
+main {
+    position: relative; /* メイン部分の基準点を最左上から、サイドメニュー右&ヘッダー下に変更 */
+    top: 80px;
+    left:250px;    
+}
+
 .title {
     position: absolute;
-    top: 100px;
-    left:200px;
-    color: #282424;
-    font-size: 30px;
+    width: 100%;
+    color: #282424; /* 指定なかったので、ヘッダーの背景色と同じにした */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 15px 20px 25px;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.info-title {
+    position: relative;
+    top: 71px;
+    width: 70%;
+}
+
+.info {
+    position: absolute;
+    width: 70%;
+    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 0px 10px 0px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px 25px;
+}
+
+.list-logo {
+    position: absolute;
+    right: 30px;
+    background-color: #f08404;
+    padding: 2px 7px;
+    margin: 35px 30px 10px 0px;
+    font-size: 5px;
+    text-align: center;
+}
+
+.list {
+    position: absolute;
+    top: 34px;
+    right: 25px;
+    color: #303434;
+    font-size: 15px;
+}
+
+.info-contents * {
+    position: relative;
+    top: 71px;
+    width: 70%;
+    font-size: 15px;
+    color: #303434;
+}
+
+.info-content p {
+    display: inline;
+}
+
+.info-content p:first-of-type {
+    margin-top: 30px;
+}
+
+.date {
+    padding: 0px 10px 10px 35px;
+}
+
+.date p:first-of-type{
+    padding-top: 30px;
+
+}
+
+.tag {
+    display: inline;
 
 
 }
