@@ -248,15 +248,20 @@ main {
 
 }
 
-.info-title {
-    position: relative;
+.info {
+    position: absolute;
     top: 71px;
     width: 70%;
 }
 
-.info {
+.info-title {
     position: absolute;
     width: 70%;
+}
+
+.info-text {
+    position: absolute;
+    width: 100%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 20px;
     font-weight: 500;
@@ -283,33 +288,58 @@ main {
     font-size: 15px;
 }
 
-.info-contents * {
-    position: relative;
+.info-contents {
+    position: absolute;
     top: 71px;
     width: 70%;
     font-size: 15px;
     color: #303434;
 }
 
+.info-content {
+    /* position: absolute;
+    top: 70px; */
+    width: 70%;
+    border-bottom: 1px solid #cccccc;
+    /* float: left; */
+    display: inline-block;
+}
+
 .info-content p {
-    display: inline;
+    /* position: absolute; */
+    /* top: 71px; */
+    /* width: 70%; */
+    color: #303434;
+
+   
+    display: inline-block;
+    /* float: left; */
 }
 
 .info-content p:first-of-type {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .date {
-    padding: 0px 10px 10px 35px;
+    /* padding: 0px 10px 10px 35px; */
+    /* float: left; */
+    display: inline-block;
+
 }
 
 .date p:first-of-type{
-    padding-top: 30px;
+    /* padding-top: 30px; */
 
 }
 
 .tag {
-    display: inline;
+    /* display: inline; */
+    display: inline-block;
 
+}
+
+.text {
+    /* display: inline; */
+    display: inline-block;
 
 }
