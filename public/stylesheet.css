@@ -292,14 +292,15 @@ main {
     position: absolute;
     top: 71px;
     width: 70%;
-    font-size: 15px;
+    font-size: 10px;
     color: #303434;
 }
 
 .info-content {
     /* position: absolute;
     top: 70px; */
-    width: 70%;
+    width: 100%;
+    margin: 0px 25px;
     border-bottom: 1px solid #cccccc;
     /* float: left; */
     display: inline-block;
@@ -310,11 +311,17 @@ main {
     /* top: 71px; */
     /* width: 70%; */
     color: #303434;
+    padding: 10px;
 
    
     display: inline-block;
     /* float: left; */
 }
+
+/* .info-content a {
+    text-align: right;
+} */
+
 
 .info-content p:first-of-type {
     /* margin-top: 30px; */
@@ -323,7 +330,7 @@ main {
 .date {
     /* padding: 0px 10px 10px 35px; */
     /* float: left; */
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
@@ -333,13 +340,30 @@ main {
 }
 
 .tag {
-    /* display: inline; */
+    padding: 2px 0px;
+    color: #f08404;
+    border: solid 1px #f08404;
+    border-radius: 10px;
+    display: inline;
+}
+
+.tag p {
+    color: #f08404;
+}
+
+.more {
     display: inline-block;
 
 }
 
+.more a {
+    color: #f08404;
+    
+}
+
+
 .text {
     /* display: inline; */
-    display: inline-block;
+    /* display: inline; */
 
 }
