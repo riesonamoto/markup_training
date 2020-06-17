@@ -237,7 +237,7 @@ main {
     left:250px;    
 }
 
-.title {
+.dashboard {
     position: absolute;
     width: 100%;
     color: #282424; /* 指定なかったので、ヘッダーの背景色と同じにした */
@@ -254,12 +254,18 @@ main {
     width: 70%;
 }
 
-.info-title {
+.matter {
+    position: absolute;
+    top: 200px;
+    width: 70%;
+}
+
+.title {
     position: absolute;
     width: 70%;
 }
 
-.info-text {
+.p-title {
     position: absolute;
     width: 100%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
@@ -290,7 +296,7 @@ main {
     font-size: 15px;
 }
 
-.info-contents {
+.info-contents .matter-contents {
     position: absolute;
     top: 76px;
     width: 70%;
@@ -298,14 +304,14 @@ main {
     color: #303434;
 }
 
-.info-content {
+.info-content .matter-content {
     width: 100%;
     margin: 0px 25px;
     border-bottom: 1px solid #cccccc;
     display: inline-block;
 }
 
-.info-content p {
+.info-content p .matter-content p  {
     color: #303434;
     display: inline-block;
 }
