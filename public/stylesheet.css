@@ -73,6 +73,7 @@ a {
 .side-menu {
     width: 250px;
     /* height: 100vh; vh=viewpoint height=画面の高さと同じ */
+    height: 2000px;
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
     z-index: 5;
     position: absolute;
@@ -260,6 +261,12 @@ main {
     width: 70%;
 }
 
+.friends-request {
+    position: absolute;
+    top: 494px;
+    width: 70%;
+}
+
 .title {
     /* position: absolute; */
     width: 70%;
@@ -284,7 +291,9 @@ main {
     padding: 50px 0px 10px 0px;
 }
 
-
+.p-title-friends {
+    padding: 50px 0px 10px 0px;
+}
 
 .list-logo {
     position: absolute;
@@ -318,6 +327,10 @@ main {
 
 .matter-contents {
     top: 96px;
+}
+
+.friends-contents {
+    top: 116px;
 }
 
 .content {
@@ -368,3 +381,4 @@ main {
 .more a {
     color: #f08404;    
 }
+
