@@ -263,7 +263,7 @@ main {
 
 .friends-request {
     position: absolute;
-    top: 494px;
+    top: 493px;
     width: 70%;
 }
 
@@ -330,7 +330,7 @@ main {
 }
 
 .friends-contents {
-    top: 116px;
+    top: 95px;
 }
 
 .content {
@@ -349,6 +349,10 @@ main {
     display: inline-block;
 }
 
+.friends-content p {
+    color: #303434;
+    display: inline-block;
+}
 
 .date {
     margin: 10px 0px 10px 10px;
@@ -382,3 +386,14 @@ main {
     color: #f08404;    
 }
 
+.friends-photo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* 画像が正方形でない場合に縦横比を保ったままにする */
+    background-color: #cccccc;
+    float: left;
+    margin: 0px;
+    margin: 10px 15px 10px 10px;
+}
