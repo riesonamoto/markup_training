@@ -397,3 +397,27 @@ main {
     margin: 0px;
     margin: 10px 15px 10px 10px;
 }
+
+.friends-content {
+    position: relative;
+}
+
+.friends-name {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.prefecture {
+    /* position: absolute;
+    top: 20px;
+    left: 75px;
+    float: none; */
+ 
+}
+
+.button {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
