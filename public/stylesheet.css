@@ -409,11 +409,10 @@ main {
 }
 
 .prefecture {
-    /* position: absolute;
-    top: 20px;
-    left: 75px;
-    float: none; */
- 
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    padding-top: 10px;
 }
 
 .button {
