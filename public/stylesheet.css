@@ -230,7 +230,7 @@ footer {
     display: none;
 }
 
-/* *****ダッシュボード***** */
+/* *****ダッシュボード 左エリア***** */
 
 main {
     position: relative; /* メイン部分の基準点を最左上から、サイドメニュー右&ヘッダー下に変更 */
@@ -252,24 +252,24 @@ main {
 .info {
     position: absolute;
     top: 71px;
-    width: 70%;
+    width: 65%;
 }
 
 .matter {
     position: absolute;
     top: 272px;
-    width: 70%;
+    width: 65%;
 }
 
 .friends-request {
     position: absolute;
     top: 493px;
-    width: 70%;
+    width: 65%;
 }
 
 .title {
     /* position: absolute; */
-    width: 70%;
+    width: 65%;
 }
 
 .p-title {
@@ -438,5 +438,27 @@ main {
 
 .reject {
     background-color: #cccccc;
+}
+
+
+/* *****ダッシュボード 右エリア***** */
+
+.post {
+    position: absolute;
+    top: 71px;
+    left: 773.5px;
+    width: 35%;
+}
+
+.sub-title p{
+    position: absolute;
+    width: 100%;
+    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
+    font-size: 10px;
+    font-weight: 500;
+    border-bottom: 1px solid #303434;
+    margin: 0px 25px;
+    margin: 0px 25px 5px 25px;
+
 }
 
