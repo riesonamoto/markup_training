@@ -241,7 +241,7 @@ main {
 
 .dashboard {
     position: absolute;
-    width: 100%;
+    width: 1190px;
     color: #282424; /* 指定なかったので、ヘッダーの背景色と同じにした */
     font-size: 20px;
     font-weight: bold;
@@ -252,24 +252,24 @@ main {
 .info {
     position: absolute;
     top: 71px;
-    width: 65%;
+    width: 60%;
 }
 
 .matter {
     position: absolute;
     top: 272px;
-    width: 65%;
+    width: 60%;
 }
 
 .friends-request {
     position: absolute;
     top: 493px;
-    width: 65%;
+    width: 60%;
 }
 
 .title {
     /* position: absolute; */
-    width: 65%;
+    width: 60%;
 }
 
 .p-title {
@@ -446,8 +446,8 @@ main {
 .post {
     position: absolute;
     top: 71px;
-    left: 773.5px;
-    width: 35%;
+    left: 764px;
+    width: 40%;
 }
 
 .sub-title p{
@@ -455,10 +455,20 @@ main {
     width: 100%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 10px;
-    font-weight: 500;
-    border-bottom: 1px solid #303434;
-    margin: 0px 25px;
-    margin: 0px 25px 5px 25px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 15px;
+    display: inline-block;
+    
+    float: left;
+}
 
+.sub-title-bold {
+    font-weight: 500;
+}
+
+.sub-title-regular {
+
+    font-weight: 500;
 }
 
