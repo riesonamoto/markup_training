@@ -459,16 +459,10 @@ main {
     border-bottom: 1px solid #cccccc;
     padding: 10px 15px;
     display: inline-block;
-    
-    float: left;
 }
 
-.sub-title-bold {
-    font-weight: 500;
-}
-
-.sub-title-regular {
-
-    font-weight: 500;
+.bold {
+    color: #303434;
+    font-weight: 1000;
 }
 
