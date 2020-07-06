@@ -447,7 +447,7 @@ main {
     position: absolute;
     top: 71px;
     left: 764px;
-    width: 40%;
+    width: 36%;
 }
 
 .sub-title p{
@@ -463,6 +463,6 @@ main {
 
 .bold {
     color: #303434;
-    font-weight: 1000;
+    font-weight: bold;
 }
 
