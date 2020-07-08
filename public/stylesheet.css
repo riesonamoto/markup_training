@@ -466,3 +466,21 @@ main {
     font-weight: bold;
 }
 
+.msg_send {
+    position: absolute;
+    top: 109px;
+    left: 764px;
+    width: 36%;
+}
+
+.msg_type label {
+    position: absolute;
+    width: 100%;
+    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
+    font-size: 10px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
