@@ -471,16 +471,19 @@ main {
     top: 109px;
     left: 764px;
     width: 36%;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+
 }
 
-.msg_type label {
+.msg_type {
     position: absolute;
     width: 100%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 10px;
-    border-left: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    padding: 10px 15px;
-    display: inline-block;
+    /* padding: 10px 15px; */
+        display: inline;
+
+    /* display: inline-block; */
 }
 
