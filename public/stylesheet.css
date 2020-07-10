@@ -471,19 +471,38 @@ main {
     top: 109px;
     left: 764px;
     width: 36%;
+    height: 70px;
     border-left: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
-
 }
 
 .msg_type {
     position: absolute;
     width: 100%;
-    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 10px;
-    /* padding: 10px 15px; */
-        display: inline;
-
-    /* display: inline-block; */
+    padding: 15px 15px 10px 15px;
 }
+
+.msg_type label {
+    color: #303434;
+}
+
+.msg {
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    font-size: 10px;
+    padding: 0px 15px 15px 15px;
+}
+
+.msg_area {
+    font-size: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px 0px 7px 0px;
+
+}
+    
 
