@@ -497,12 +497,25 @@ main {
 
 .msg_area {
     font-size: 10px;
-    width: 100px;
-    height: 40px;
+    width: 70%;
+    height: 30px;
     border: 1px solid #cccccc;
-    border-radius: 20px 20px 20px 20px;
-    padding: 7px 0px 7px 0px;
-
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
 }
+
+.msg_send_button {
+    color: #ffffff;
+    font-size: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #f08404; 
+}
+
+
     
 
