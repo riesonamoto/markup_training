@@ -471,7 +471,7 @@ main {
     top: 109px;
     left: 764px;
     width: 36%;
-    height: 70px;
+    height: 90px;
     border-left: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
 }
@@ -510,10 +510,9 @@ main {
     width: 50px;
     height: 30px;
     border-radius: 15px 15px 15px 15px;
-    border: none;
+    border: 1px solid #f08404;
     padding: 10px;
-    text-align: center;
-    background-color: #f08404; 
+    background-color: #f08404;
 }
 
 
