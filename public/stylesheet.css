@@ -515,6 +515,12 @@ main {
     background-color: #f08404;
 }
 
+.feed {
+    position: absolute;
+    top: 200px;
+    left: 764px;
+    width: 36%;
+}
 
     
 
