@@ -476,6 +476,11 @@ main {
     border-bottom: 1px solid #cccccc;
 }
 
+
+input[type="radio"] {
+ vertical-align:middle;
+}
+
 .msg_type {
     position: absolute;
     width: 100%;
@@ -485,6 +490,7 @@ main {
 
 .msg_type label {
     color: #303434;
+    padding-right: 10px;
 }
 
 .msg {
@@ -495,9 +501,13 @@ main {
     padding: 0px 15px 15px 15px;
 }
 
+input {
+    vertical-align : middle;
+}
+
 .msg_area {
     font-size: 10px;
-    width: 70%;
+    width: 85%;
     height: 30px;
     border: 1px solid #cccccc;
     border-radius: 15px 15px 15px 15px;
@@ -510,14 +520,14 @@ main {
     width: 50px;
     height: 30px;
     border-radius: 15px 15px 15px 15px;
-    border: 1px solid #f08404;
-    padding: 10px;
+    padding: 5px;
+    border: none;
     background-color: #f08404;
 }
 
 .feed {
     position: absolute;
-    top: 200px;
+    top: 198px;
     left: 764px;
     width: 36%;
     color: #303434;
