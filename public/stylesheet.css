@@ -535,6 +535,7 @@ input {
 
 .feed p {
     color: #303434;
+    font-size: 10px;
 }
 
 .face-photo-50px {
@@ -547,5 +548,14 @@ input {
     float: left;
     margin: 0px;
 }
-    
+
+
+/* .feed-name {
+    font-size: 20px;
+}
+
+.feed-date p {
+    font-size: 30px;
+}
+     */
 
