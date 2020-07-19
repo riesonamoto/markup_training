@@ -533,7 +533,7 @@ input {
     color: #303434;
 }
 
-.feed p {
+.feed {
     color: #303434;
     font-size: 10px;
 }
@@ -550,12 +550,14 @@ input {
 }
 
 
-/* .feed-name {
-    font-size: 20px;
+.feed-name {
+    color: #303434;
+    font-size: 12px;
 }
 
-.feed-date p {
-    font-size: 30px;
+.feed-date {
+    color: #303434;
+    font-size: 8px;
 }
-     */
+    
 
