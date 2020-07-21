@@ -531,33 +531,38 @@ input {
     left: 764px;
     width: 36%;
     color: #303434;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .feed {
-    color: #303434;
+    color: #30343;
     font-size: 10px;
 }
 
 .face-photo-50px {
-    display: inline-block;
+    display: inline;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover; /* 画像が正方形でない場合に縦横比を保ったままにする */
     background-color: #cccccc;
     float: left;
-    margin: 0px;
+    margin: 15px 10px 30px 15px;
 }
 
-
 .feed-name {
+    display: inline;
     color: #303434;
     font-size: 12px;
+    margin: 15px 0px 10px 0px;
 }
 
 .feed-date {
+    display: inline;
     color: #303434;
     font-size: 8px;
+    margin: 15px 15px 10px 0px;
 }
     
 
