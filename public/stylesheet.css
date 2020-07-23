@@ -555,14 +555,16 @@ input {
     display: inline;
     color: #303434;
     font-size: 12px;
-    margin: 15px 0px 10px 0px;
+    padding: 15px 0px 10px 0px;
+    float: left;
 }
 
 .feed-date {
     display: inline;
     color: #303434;
     font-size: 8px;
-    margin: 15px 15px 10px 0px;
+    padding: 15px 15px 10px 0px;
+    float: right;
 }
     
 
