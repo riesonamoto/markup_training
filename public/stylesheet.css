@@ -599,11 +599,17 @@ input {
     position: absolute;
     top: 99px;
     right: 0px;
-    color: #f08404;
     padding: 0px 15px 15px 0px;
 }
 
 .reply a {
     color: #f08404;
+}
+
+.reply-icon {
+    position: absolute;
+    top: 2px;
+    right: 60px;
+    height: 10px;
 }
 
