@@ -529,12 +529,10 @@ input {
     top: 198px;
     left: 764px;
     width: 36%;
+    height: 130px;
     color: #303434;
     border-left: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
-}
-
-.feed {
     color: #30343;
     font-size: 10px;
 }
