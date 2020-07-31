@@ -524,17 +524,24 @@ input {
     background-color: #f08404;
 }
 
-.feed {
+.feeds {
     position: absolute;
     top: 198px;
     left: 764px;
     width: 36%;
     height: 130px;
     color: #303434;
-    border-left: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
+    /* border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc; */
     color: #30343;
     font-size: 10px;
+}
+
+.feed {
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+
+
 }
 
 .face-photo-50px {
@@ -573,7 +580,6 @@ input {
     padding: 0px 0px 10px 0px;
     float: left;
 }
-
 
 .report-tag p {
     color: #f08404;
