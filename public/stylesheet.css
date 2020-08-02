@@ -551,10 +551,12 @@ input {
 }
 
 .feed-name {
+    position: relative;
+    top: 15px;
     display: inline;
     color: #303434;
     font-size: 12px;
-    padding: 15px 0px 10px 0px;
+    padding-bottom: 10px;
     float: left;
 }
 
@@ -571,7 +573,6 @@ input {
     top: 43px;
     left: -52px;
     font-size: 10px;
-    padding: 0px 0px 10px 0px;
     float: left;
 }
 
@@ -584,11 +585,10 @@ input {
 
 .feed-comment {
     position: relative;
-    top: 74px;
-    left: 75px;
+    top: 24px;
     display: inline;
     font-size: 10px;
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     float: left;
     color: #303434;
 }
@@ -596,7 +596,7 @@ input {
 .reply {
     position: relative;
     top: 99px;
-    right: 0px;
+    right: -100px;
     padding: 0px 15px 15px 0px;
 }
 
@@ -605,7 +605,7 @@ input {
 }
 
 .reply-icon {
-    position: absolute;
+    position: relative;
     top: 2px;
     right: 60px;
     height: 10px;
