@@ -596,18 +596,24 @@ input {
 .reply {
     position: relative;
     top: 99px;
-    right: -100px;
+    /* left: 120px; */
+    width: auto;
     padding: 0px 15px 15px 0px;
+    color: #f08404;
+
 }
 
 .reply a {
+    /* position: relative;
+    top: 99px;
+    right: 0px; */
     color: #f08404;
 }
 
 .reply-icon {
     position: relative;
     top: 2px;
-    right: 60px;
+    right: 0px;
     height: 10px;
 }
 
