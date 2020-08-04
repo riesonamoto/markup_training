@@ -596,17 +596,13 @@ input {
 .reply {
     position: relative;
     top: 99px;
-    /* left: 120px; */
+    left: 165px;
     width: auto;
     padding: 0px 15px 15px 0px;
-    color: #f08404;
-
+    display: inline-block;
 }
 
 .reply a {
-    /* position: relative;
-    top: 99px;
-    right: 0px; */
     color: #f08404;
 }
 
