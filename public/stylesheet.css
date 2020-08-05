@@ -608,8 +608,10 @@ input {
 
 .reply-icon {
     position: relative;
-    top: 2px;
-    right: 0px;
+    top: 99px;
+    left: 165px;
     height: 10px;
+    display: inline-block;
+
 }
 
