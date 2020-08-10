@@ -7,15 +7,27 @@
 
 body {
     margin: 0; /* この余白を指定しないと上下左右に余白ができる */
+    padding: 0;
+    height: 100%;
     /* display: flex;
     flex-flow: column;
-    min-height: 100vh; */
-    /* position: relative; */
+    min-height: 100vh;
+    position: relative; */
 }
 
 main {
     /* background-color: #ffffff;
     flex: 1; */
+    /* min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box; */
+    /* margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh; */
+    
+    
 }
 
 a {
@@ -71,13 +83,12 @@ a {
 /* *****サイドメニュー***** */
 
 .side-menu {
+    position: fixed;
+    top: 80px;
     width: 250px;
-    /* height: 100vh; vh=viewpoint height=画面の高さと同じ */
-    height: 2000px;
+    height: 150%;
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
     z-index: 5;
-    position: absolute;
-    top: 80px;
 }
 
 .worker-info {
@@ -146,7 +157,7 @@ footer {
     width: 100%;
     height: 160px;
     position: absolute;
-    bottom: -600px;
+    top: 120%;
     z-index: 10;
 }
 
@@ -221,7 +232,6 @@ footer {
     letter-spacing: 0.05em;
     text-align: center;
     padding: 10px 30px;
-
 }
 
 /* *****モバイルフッター***** */
@@ -235,8 +245,9 @@ footer {
 main {
     position: relative; /* メイン部分の基準点を最左上から、サイドメニュー右&ヘッダー下に変更 */
     top: 80px;
-    left:250px;
+    left: 250px;
     width: 1190px;
+    height: 100%;
 }
 
 .dashboard {
