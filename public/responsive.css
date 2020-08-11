@@ -34,6 +34,11 @@
         margin: 10px 0px;
     }
 
+    #hamburger-logo input {
+        display: none;
+
+    }
+
 /* *****サイドメニュー***** */
 
     .side-menu {
@@ -116,10 +121,10 @@
         font-size: 7px;
         padding-top: 5px;
         padding-bottom: 7px;
-
     }
 
+/* *****ダッシュボード***** */
 
-    
-
+.dashboard {
+    width: 100%;
 }
