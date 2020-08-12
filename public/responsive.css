@@ -34,10 +34,19 @@
         margin: 10px 0px;
     }
 
+    #hamburger-logo label {
+        cursor: pointer;
+    }
+
+
     #hamburger-logo input {
         display: none;
-
     }
+
+    #hamburger-logo input:checked+div {
+        display: block;
+    }
+
 
 /* *****サイドメニュー***** */
 
