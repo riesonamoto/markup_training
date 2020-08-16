@@ -72,6 +72,16 @@
         padding: 15px 20px;
     }
 
+/* *****モバイルサイドメニュー***** */
+
+    .btn {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        border: solid 1px #cccccc;
+        cursor: pointer;
+    }
+
 /* *****フッター***** */
 
     footer {
