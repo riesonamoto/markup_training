@@ -51,6 +51,7 @@
 /* *****サイドメニュー***** */
 
     .side-menu {
+        color: #303434;
         position: absolute;
         top: 40px;
     }
