@@ -63,9 +63,9 @@ a {
     margin: 30px 30px 30px 0px;
 }
 
-.hamburger-logo {
+/* .hamburger-logo {
     display: none; /* スマホ用なので消す */
-}
+/* }  */
 
 .header-list a {
     list-style: none;

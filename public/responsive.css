@@ -27,12 +27,12 @@
         display: none;
     }
     
-    .hamburger-logo {
+    /* .hamburger-logo {
         display: inline;
         float: right;
         height: 20px;
         margin: 10px 0px;
-    }
+    } */
 
     /* #hamburger-logo label {
         cursor: pointer;
