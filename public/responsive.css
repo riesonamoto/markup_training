@@ -65,8 +65,15 @@
     }
 
     .menu-contents {
+        display: none;
         border-top: 0.5px solid #ffffff;
     }
+
+    .menu-contents.active {
+        display: block;
+        border-top: 0.5px solid #ffffff;
+    }
+
 
     .menu-content {
         border-bottom: 0.5px solid #ffffff;
@@ -152,12 +159,14 @@
         position: absolute;
         top: 64px;
         left: -120%;
-        background: #fff;
+        background: #282428;
         transition: all 0.5s;
       }
       .p-global-nav.active{
         left: 0;
       }
+
+
 
 /* *****フッター***** */
 
