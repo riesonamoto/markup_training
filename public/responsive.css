@@ -54,14 +54,15 @@
         color: #303434;
         position: absolute;
         top: 40px;
-    }
-
-    .side-menu {
         width: 100%;
     }
 
     .worker-info {
         display: none;
+    }
+
+    .worker-info.active {
+        display: block;
     }
 
     .menu-contents {
@@ -75,7 +76,7 @@
     }
 
 
-    .menu-content {
+    .menu-content.active  {
         border-bottom: 0.5px solid #ffffff;
         padding: 15px 20px;
     }
