@@ -50,35 +50,40 @@
 
 /* *****サイドメニュー***** */
 
-    .side-menu {
+    .side-menu.active {
         color: #303434;
         position: absolute;
         top: 40px;
         width: 100%;
+
     }
 
     .worker-info {
         display: none;
     }
 
-    .worker-info.active {
-        display: block;
-    }
-
     .menu-contents {
         display: none;
-        border-top: 0.5px solid #ffffff;
     }
+
+    .menu-contents :hover {
+        border-left: 5px solid #f08404;
+    }
+    
 
     .menu-contents.active {
         display: block;
         border-top: 0.5px solid #ffffff;
+        background-color: #282424;
+
     }
 
 
     .menu-content.active  {
         border-bottom: 0.5px solid #ffffff;
         padding: 15px 20px;
+        background-color: #282424;
+
     }
 
 /* *****モバイルサイドメニュー***** */
