@@ -85,6 +85,7 @@ a {
 .side-menu {
     position: fixed;
     top: 80px;
+    left: 0;
     width: 250px;
     height: 150%;
     background-color: #303434; /* 指定なしだったのでカラーピッカーで色決定 */
@@ -149,6 +150,10 @@ a {
 .menu-icon {
     height: 15px;
     padding-right: 10px;
+}
+
+.btn__menu {
+    display: none;
 }
 
 /* *****フッター***** */

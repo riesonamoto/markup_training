@@ -30,7 +30,12 @@
 
 /* *****サイドメニュー***** */
 
+    .side-menu {
+        display: none;
+    }
+
     .side-menu.active {
+        display: block;
         color: #303434;
         position: absolute;
         top: 0px;
@@ -72,12 +77,12 @@
         cursor: pointer;
     }
 
-    .btn__text{
+    /* .btn__text{
         display: block;
         overflow: hidden;
         text-indent: 100%;
         white-space: nowrap;
-      }
+      } */
       
       .btn__menu{
         -webkit-appearance: none;
@@ -85,6 +90,7 @@
         appearance: none;
         
         position: absolute;
+        display: block;
         top: 50%;
         left: 50%;
         width: 24px;
