@@ -224,4 +224,388 @@
     width: 100%;
 }
 
+
+/* *****ダッシュボード 左エリア***** */
+
+main {
+    position: relative; /* メイン部分の基準点を最左上から、サイドメニュー右&ヘッダー下に変更 */
+    top: 40px;
+    width: 100%;
+}
+
+.dashboard {
+    position: absolute;
+    color: #282424; /* 指定なかったので、ヘッダーの背景色と同じにした */
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.info {
+    position: absolute;
+    top: 71px;
+    width: 60%;
+}
+
+.matter {
+    position: absolute;
+    top: 272px;
+    width: 60%;
+}
+
+.friends-request {
+    position: absolute;
+    top: 493px;
+    width: 60%;
+}
+
+.title {
+    width: 60%;
+}
+
+.p-title {
+    position: absolute;
+    width: 100%;
+    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #303434;
+    margin: 0px 25px;
+    margin: 0px 25px 5px 25px;
+}
+
+.p-title-info {
+    padding: 30px 0px 10px 0px;
+}
+
+.p-title-matter {
+    padding: 50px 0px 10px 0px;
+}
+
+.p-title-friends {
+    padding: 50px 0px 10px 0px;
+}
+
+.list-logo {
+    position: absolute;
+    right: 30px;
+    background-color: #f08404;
+    padding: 2px 7px;
+    margin: 35px 30px 10px 0px;
+    font-size: 5px;
+    text-align: center;
+}
+
+.list {
+    position: absolute;
+    top: 34px;
+    right: 25px;
+    color: #303434;
+    font-size: 15px;
+}
+
+.contents {
+    position: absolute;
+    width: 100%;
+    font-size: 10px;
+    color: #303434;
+    margin: 0px 25px 100px 25px;
+}
+
+.info-contents {
+    top: 76px;
+}
+
+.matter-contents {
+    top: 96px;
+}
+
+.friends-contents {
+    top: 95px;
+}
+
+.content {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    display: inline-block;
+}
+
+.info-content p {
+    color: #303434;
+    display: inline-block;
+}
+
+.matter-content p {
+    color: #303434;
+    display: inline-block;
+}
+
+.friends-content p {
+    color: #303434;
+    display: inline-block;
+}
+
+.date {
+    margin: 10px 0px 10px 10px;
+}
+
+.tag {
+    margin-left: 10px;
+    display: inline;
+}
+
+.tag p {
+    color: #f08404;
+    margin: 10px 0px;
+    padding: 2px 10px;
+    border: solid 1px #f08404;
+    border-radius: 10px;
+}
+
+.text {
+    margin: 10px 0px 10px 10px;
+}
+
+.more {
+    display: inline;
+    float: right;
+    margin: 10px 10px 10px 15px;
+}
+
+.more a {
+    color: #f08404;    
+}
+
+.friends-photo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* 画像が正方形でない場合に縦横比を保ったままにする */
+    background-color: #cccccc;
+    float: left;
+    margin: 0px;
+    margin: 10px 15px 10px 10px;
+}
+
+.friends-content {
+    position: relative;
+}
+
+.friends-name {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.prefecture {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+.button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.button p {
+    color: #ffffff;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px 0px 7px 0px;
+    margin: 15px 0px 15px 5px;
+    text-align: center;
+}
+
+.approve {
+    background-color: #f08404; 
+}
+
+.reject {
+    background-color: #cccccc;
+}
+
+
+/* *****ダッシュボード 右エリア***** */
+
+.post {
+    position: absolute;
+    top: 71px;
+    left: 764px;
+    width: 36%;
+}
+
+.sub-title p{
+    position: absolute;
+    width: 100%;
+    color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
+    font-size: 10px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.bold {
+    color: #303434;
+    font-weight: bold;
+}
+
+.msg_send {
+    position: absolute;
+    top: 109px;
+    left: 764px;
+    width: 36%;
+    height: 90px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+input[type="radio"] {
+ vertical-align:middle;
+}
+
+.msg_type {
+    position: absolute;
+    width: 100%;
+    font-size: 10px;
+    padding: 15px 15px 10px 15px;
+}
+
+.msg_type label {
+    color: #303434;
+    padding-right: 10px;
+}
+
+.msg {
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    font-size: 10px;
+    padding: 0px 15px 15px 15px;
+}
+
+input {
+    vertical-align : middle;
+}
+
+.msg_area {
+    font-size: 10px;
+    width: 85%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+}
+
+.msg_send_button {
+    color: #ffffff;
+    font-size: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+    border: none;
+    background-color: #f08404;
+}
+
+.feeds {
+    position: absolute;
+    top: 198px;
+    left: 764px;
+    width: 36%;
+    color: #303434;
+    font-size: 10px;
+}
+
+.feed {
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    height: 130px;
+}
+
+.face-photo-50px {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* 画像が正方形でない場合に縦横比を保ったままにする */
+    background-color: #cccccc;
+    float: left;
+    margin: 15px 10px 30px 15px;
+}
+
+.feed-name {
+    position: relative;
+    top: 15px;
+    display: inline;
+    color: #303434;
+    font-size: 12px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.feed-date {
+    display: inline;
+    color: #303434;
+    font-size: 8px;
+    padding: 15px 15px 10px 0px;
+    float: right;
+}
+    
+.report-tag {
+    position: relative;
+    top: 43px;
+    left: -52px;
+    font-size: 10px;
+    float: left;
+}
+
+.report-tag p {
+    color: #f08404;
+    padding: 2px 10px;
+    border: solid 1px #f08404;
+    border-radius: 10px;
+}
+
+.feed-comment {
+    position: relative;
+    top: 24px;
+    display: inline;
+    font-size: 10px;
+    padding: 10px 0px 10px 0px;
+    float: left;
+    color: #303434;
+}
+
+.reply {
+    position: relative;
+    top: 99px;
+    left: 165px;
+    width: auto;
+    padding: 0px 15px 15px 0px;
+    display: inline-block;
+}
+
+.reply a {
+    color: #f08404;
+}
+
+.reply-icon {
+    position: relative;
+    top: 99px;
+    left: 165px;
+    height: 10px;
+    display: inline-block;
+}
+
+
+
 }
