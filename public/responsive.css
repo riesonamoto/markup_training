@@ -11,6 +11,8 @@
 /* *****ヘッダー***** */
 
     .header {
+        position: fixed;
+        top: 0px;
         width: 100%;
         height: 40px;
         padding: 0px 15px 0px 0px; /* 左右15px必要だったが、logoの左側に余白があったのでその余白を利用した */
@@ -190,7 +192,6 @@
         bottom: 0px;
         width: 100%;
         background-color: #282424;
-
     }
 
     .mobile-footer {
@@ -235,6 +236,7 @@ main {
 
 .dashboard {
     position: absolute;
+    width: 100%;
     color: #282424; /* 指定なかったので、ヘッダーの背景色と同じにした */
     font-size: 15px;
     font-weight: bold;
@@ -244,8 +246,8 @@ main {
 
 .info {
     position: absolute;
-    top: 71px;
-    width: 60%;
+    top: 54px;
+    width: 100%;
 }
 
 .matter {
@@ -261,14 +263,14 @@ main {
 }
 
 .title {
-    width: 60%;
+    width: 100%;
 }
 
 .p-title {
     position: absolute;
     width: 100%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     border-bottom: 1px solid #303434;
     margin: 0px 25px;
@@ -436,9 +438,9 @@ main {
 
 .post {
     position: absolute;
-    top: 71px;
-    left: 764px;
-    width: 36%;
+    /* top: 71px; */
+    left: 0px;
+    width: 100%;
 }
 
 .sub-title p{
@@ -459,9 +461,9 @@ main {
 
 .msg_send {
     position: absolute;
-    top: 109px;
-    left: 764px;
-    width: 36%;
+    /* top: 109px;
+    left: 764px; */
+    width: 100%;
     height: 90px;
     border-left: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
@@ -486,7 +488,7 @@ input[type="radio"] {
 
 .msg {
     position: absolute;
-    top: 42px;
+    /* top: 42px; */
     width: 100%;
     font-size: 10px;
     padding: 0px 15px 15px 15px;
@@ -518,9 +520,9 @@ input {
 
 .feeds {
     position: absolute;
-    top: 198px;
-    left: 764px;
-    width: 36%;
+    /* top: 198px;
+    left: 764px; */
+    width: 100%;
     color: #303434;
     font-size: 10px;
 }
