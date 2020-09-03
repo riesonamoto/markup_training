@@ -207,7 +207,6 @@
     .footer-icon {
         height: 40px;
         padding-top: 7px;
-
     }
 
     .mobile-footer a {
@@ -222,6 +221,7 @@
 main {
     position: relative; /* メイン部分の基準点を最左上から、サイドメニュー右&ヘッダー下に変更 */
     top: 40px;
+    left: 0px;
     width: 100%;
 }
 
@@ -259,13 +259,12 @@ main {
 
 .p-title {
     position: absolute;
-    width: 100%;
+    width: 80%;
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 15px;
     font-weight: 500;
     border-bottom: 1px solid #303434;
     margin: 0px 20px;
-    margin: 0px 25px 5px 25px;
 }
 
 .p-title-info {
