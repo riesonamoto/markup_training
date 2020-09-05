@@ -15,7 +15,8 @@
         top: 0px;
         width: 100%;
         height: 40px;
-        padding: 0px 15px 0px 0px; /* 左右15px必要だったが、logoの左側に余白があったのでその余白を利用した */
+        padding: 0px;
+        /* padding: 0px 15px 0px 0px; 左右15px必要だったが、logoの左側に余白があったのでその余白を利用した */
     }
 
     .logo {
@@ -318,7 +319,7 @@ main {
 }
 
 .content {
-    width: 100%;
+    width: 90%;
     border-bottom: 1px solid #cccccc;
     display: inline-block;
 }
