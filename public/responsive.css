@@ -1,28 +1,34 @@
-/*全要素のCSS適用*/
-* {
-    color: #ffffff;
-    box-sizing: border-box;
-}
-
-
 /* スマートフォン用レイアウト */
 @media (max-width: 670px){
+
+/*全要素のCSS適用*/
+    *, *:before, *:after {
+        color: #ffffff;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0; /* この余白を指定しないと上下左右に余白ができる */
+        padding: 0;
+        width: 100%;
+    }
 
 /* *****ヘッダー***** */
 
     .header {
         position: fixed;
+        display: inline-block;
         top: 0px;
-        width: 100%;
+        width: calc(100% - 26px); /* ハンバーガーメニュー分のwidthを引く */
         height: 40px;
         padding: 0px;
-        /* padding: 0px 15px 0px 0px; 左右15px必要だったが、logoの左側に余白があったのでその余白を利用した */
     }
 
     .logo {
         height: 40px; /* 本当は高さ20px(目測)だが、svgの上下に余白が10px位あったので、40pxにした */
-        margin: 0px; 
-        /* 本当は上下余白は10pxだがlogoの高さを40pxにしたので、ヘッダー高さ40pxになるようにmarginは0pxにした */
+        margin: 0px; /* 本当は上下余白は10pxだがlogoの高さを40pxにしたので、ヘッダー高さ40pxになるようにmarginは0pxにした */
         float: left;
     }
 
@@ -92,8 +98,8 @@
         
         position: absolute;
         display: block;
-        top: 50%;
-        left: 50%;
+        top: 80%;
+        right: 5%;
         width: 24px;
         height: 2px;
         background: #cccccc;
@@ -146,8 +152,6 @@
       
       .p-global-nav{
         position: absolute;
-        top: 64px;
-        left: -120%;
         background: #cccccc;
         transition: all 0.5s;
       }
@@ -163,7 +167,7 @@
 
     footer {
         position: absolute;
-        top: 400px;
+        width: 100%;
     }
 
     .main-footer {
@@ -189,7 +193,7 @@
     .mobile-footers {
         position: fixed;
         bottom: 0px;
-        width: 100%;
+        width: calc(100% - 26px); /* ハンバーガーメニュー分のwidthを引く */
         background-color: #282424;
     }
 
