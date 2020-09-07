@@ -264,7 +264,7 @@ main {
 
 .p-title {
     position: absolute;
-    width: 80%;
+    width: calc(100% - 40px);
     color: #303434; /* 指定なかったので、サイドメニューの背景色と同じにした */
     font-size: 15px;
     font-weight: 500;
@@ -323,7 +323,7 @@ main {
 }
 
 .content {
-    width: 90%;
+    width: calc(100% - 40px);
     border-bottom: 1px solid #cccccc;
     display: inline-block;
 }
@@ -344,24 +344,24 @@ main {
 }
 
 .date {
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 0px 10px;
 }
 
 .tag {
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline;
 }
 
 .tag p {
     color: #f08404;
-    margin: 10px 0px;
-    padding: 2px 10px;
+    margin: 0px 0px 7px 0px;
+    padding: 1px 10px;
     border: solid 1px #f08404;
     border-radius: 10px;
 }
 
 .text {
-    margin: 10px 0px 10px 10px;
+    margin: 0px 0px 10px 10px;
 }
 
 .more {
