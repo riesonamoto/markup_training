@@ -367,7 +367,7 @@ main {
 .more {
     display: inline;
     float: right;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
 }
 
 .more a {
