@@ -248,8 +248,8 @@ main {
 
 .matter {
     position: absolute;
-    top: 272px;
-    width: 60%;
+    top: 298px;
+    width: 100%;
 }
 
 .friends-request {
@@ -269,7 +269,7 @@ main {
     font-size: 15px;
     font-weight: 500;
     border-bottom: 1px solid #303434;
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
 }
 
 .p-title-info {
