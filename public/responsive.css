@@ -316,7 +316,7 @@ main {
 }
 
 .matter-contents {
-    top: 96px;
+    top: 84px;
 }
 
 .friends-contents {
@@ -337,6 +337,10 @@ main {
 .matter-content p {
     color: #303434;
     display: inline-block;
+}
+
+.matter-content {
+    width: calc(100% - 40px);
 }
 
 .friends-content p {
