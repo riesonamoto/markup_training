@@ -342,7 +342,7 @@ main {
 }
 
 .content {
-    width: 100%;
+    width: calc(100% - 40px);
     border-bottom: 1px solid #cccccc;
     display: inline-block;
 }
@@ -406,7 +406,7 @@ main {
     background-color: #cccccc;
     float: left;
     margin: 0px;
-    margin: 10px 15px 10px 10px;
+    margin: 10px 15px 10px 0px;
 }
 
 .friends-content {
@@ -419,17 +419,20 @@ main {
     left: 75px;
 }
 
+.name {
+    font-size: 15px;
+}
+
 .prefecture {
-    position: absolute;
-    top: 18px;
+    position: relative;
+    top: 0px;
     left: 0px;
-    padding-top: 10px;
+    padding: 10px 0px 0px 15px;
 }
 
 .button {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    position: relative;
+    top: 30px;
 }
 
 .button p {
