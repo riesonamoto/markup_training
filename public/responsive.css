@@ -170,12 +170,17 @@
         width: 100%;
     }
 
+    .footers {
+        position: relative;
+        bottom: 163px;
+    }
+
     .top-footer {
         margin-top: 50px;
     }
 
     .main-footer {
-        height: 123px;
+        height: 133px;
     }
 
     .rebuild-info {
@@ -188,8 +193,9 @@
 
     .page-top {
         position: absolute;
-        right: 20px;
-        bottom: 21px;    
+        right: 0px;
+        bottom: 37px;
+        margin: 0px 15px 15px 0px;
     }
     
 /* *****モバイルフッター***** */
@@ -197,7 +203,7 @@
     .mobile-footers {
         position: fixed;
         bottom: 0px;
-        width: calc(100% - 26px); /* ハンバーガーメニュー分のwidthを引く */
+        width: calc(100% - 20px);
         background-color: #282424;
     }
 
