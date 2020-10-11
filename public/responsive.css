@@ -95,11 +95,10 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        
         position: absolute;
         display: block;
-        top: 80%;
-        right: 5%;
+        top: 20px;
+        right: -30px;
         width: 24px;
         height: 2px;
         background: #cccccc;
@@ -353,7 +352,7 @@ main {
 }
 
 .content {
-    width: calc(100% - 40px);
+    width: 100%;
     border-bottom: 1px solid #cccccc;
     display: inline-block;
 }
@@ -422,6 +421,7 @@ main {
 
 .friends-content {
     position: relative;
+    width: calc(100% - 40px);
 }
 
 .friends-name {
