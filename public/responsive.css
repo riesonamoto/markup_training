@@ -83,13 +83,6 @@
         right: 40px;
         cursor: pointer;
     }
-
-    /* .btn__text{
-        display: block;
-        overflow: hidden;
-        text-indent: 100%;
-        white-space: nowrap;
-      } */
       
       .btn__menu{
         -webkit-appearance: none;
@@ -421,7 +414,7 @@ main {
 
 .friends-content {
     position: relative;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .friends-name {
