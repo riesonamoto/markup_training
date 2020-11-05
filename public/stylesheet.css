@@ -137,10 +137,14 @@ a {
 .menu-content {
     height: 45px; /* 高さ30pxだったが、padding上下15px必要だったので、45pxにした */
     padding: 15px 30px;
-    color: #ffffff;
     font-size: 15px;
     letter-spacing: 0.05em; /* 0.5emという指定だけど0.05emの間違い？ */
 }
+
+.menu-content a {
+    color: #ffffff;
+}
+
 
 .menu-content :hover {
     color: #f08404;
@@ -171,7 +175,6 @@ footer {
     height: 33px;
     padding: 10px 30px;
     background-color: #60646c; /* 指定なしだったので、カラーピッカーで色決定 */
-    color: #ffffff;
     font-size: 13px;
     letter-spacing: 0.05em; /* 0.5emの指定だったが、デザインを見ると0.05emくらいなので、0.05emにした */
 }
@@ -179,6 +182,7 @@ footer {
 .top-footer a {
     padding-right: 30px;
     float: left;
+    color: #ffffff;
 }
 
 .main-footer {
