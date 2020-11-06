@@ -1,5 +1,6 @@
 /* 全要素のCSS適用 */
 * {
+    color: #ffffff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -317,7 +318,7 @@ main {
 
 .list-logo {
     position: absolute;
-    right: 30px;
+    right: 0px;
     background-color: #f08404;
     padding: 2px 7px;
     margin: 35px 30px 10px 0px;
@@ -328,7 +329,7 @@ main {
 .list {
     position: absolute;
     top: 34px;
-    right: 25px;
+    right: 0px;
     color: #303434;
     font-size: 15px;
 }
