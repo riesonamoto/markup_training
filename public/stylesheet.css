@@ -301,7 +301,6 @@ main {
     font-weight: 500;
     border-bottom: 1px solid #303434;
     margin: 0px 25px;
-    margin: 0px 25px 5px 25px;
 }
 
 .p-title-info {
@@ -321,7 +320,7 @@ main {
     right: 0px;
     background-color: #f08404;
     padding: 2px 7px;
-    margin: 35px 30px 10px 0px;
+    margin: 35px 0px 10px 0px;
     font-size: 5px;
     text-align: center;
 }
@@ -329,7 +328,7 @@ main {
 .list {
     position: absolute;
     top: 34px;
-    right: 0px;
+    left: 700px;
     color: #303434;
     font-size: 15px;
 }
