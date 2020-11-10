@@ -289,7 +289,6 @@ main {
 }
 
 .title {
-    /* position: absolute; */
     width: 60%;
 }
 
@@ -317,7 +316,7 @@ main {
 
 .list-logo {
     position: absolute;
-    right: 0px;
+    right: 10px;
     background-color: #f08404;
     padding: 2px 7px;
     margin: 35px 0px 10px 0px;
@@ -328,7 +327,7 @@ main {
 .list {
     position: absolute;
     top: 34px;
-    left: 700px;
+    right: -25px;
     color: #303434;
     font-size: 15px;
 }
