@@ -324,9 +324,27 @@ main {
     text-align: center;
 }
 
+.list-logo_2 {
+    position: absolute;
+    right: 10px;
+    background-color: #f08404;
+    padding: 2px 7px;
+    margin: 55px 0px 10px 0px; /* あなたへの案件紹介&友達申請のmargin */
+    font-size: 5px;
+    text-align: center;
+}
+
 .list {
     position: absolute;
     top: 34px;
+    right: -25px;
+    color: #303434;
+    font-size: 15px;
+}
+
+.list_2 {
+    position: absolute;
+    top: 54px; /* あなたへの案件紹介&友達申請のmargin */
     right: -25px;
     color: #303434;
     font-size: 15px;
